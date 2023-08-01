@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Gabriel Thompson"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "Gabriel Thompson"
+description              : &description "Rising Freshman @ UofT"
+url                      : https://www.gabe.biz/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "new_homepage/" # the subpath of your site, e.g. "/blog"
+repository               : "sonofthomp/new_homepage.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -27,7 +27,7 @@ comments:
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    appid                :
+    appid                : https://www.facebook.com/gabriel.thompson.754365/
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
@@ -56,10 +56,12 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
+threads:
+  username               : the.son.of.thomp
 twitter:
-  username               : &twitter
+  username               : TheSon_Of_Thomp
 facebook:
-  username               :
+  username               : gabriel.thompson.754365
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -80,12 +82,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  name             : "Gabriel Thompson"
+  avatar           : "pfp.png"
+  bio              : "Comp Sci major at The University of Toronto, Web Developer, Music Theory Nerd, Wikipedian, Long-Distance Cyclist"
+  location         : "Brooklyn, NY"
+  employer         : "gabrielezrathompson@gmail.com"
+  pubmed           : ""
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
